@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Commandes - Onegrah</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="images/logo_onegraph_tout_petit.png">
+    </head>
+    <body>
+        <header>
+			<nav>
+			<div id="bloc_header">
+				<div>
+					<p><img src="images/logo_onegraph_petit.png" alt="Logo Onegrah "></p> 
+				</div>
+				<!---<div>
+					<h1 class="blancsite">Onegraph</h1>
+				</div>--->
+				<div>
+					<h2><a class="accueilhaut" href="accueil.html">Accueil</a></h2>	
+				</div>
+				<div>
+					<h2><a class="commandeshaut" href="page_com.html">Commandes</a></h2>
+				</div>
+				<div>
+					<h2><a class="aproposhaut" href=".aproposdenous">À propos de nous</a></h2>
+				</div>
+			</div>
+			</nav>
+		</header>
+        <section>
+            <article>
+                <div id="formcommandes">
+                   <h3 id="titreformcommandesminiature2d">Commandes - Miniature 2D</h3> 
+                    <form method="post" action="traitement.php">
+                            <p>
+                                <fieldset>
+                                    <legend>Vos coordonées</legend><br>
+                                        <label for="prenom">Votre prénom</label>
+                                        <input type="text" name="prenom" id="prenom" placeholder="Enzo" /><br><br>
+                                        <label for="resaux_social">Quel résaux social voulez vous utilisez pour paler de votre commandes avec vous ?</label>
+                                        <select name="resaux_social" id="resaux_social">
+                                            <option value="twitter">Twitter</option>
+                                            <option value="discord">Discord</option>
+                                            <option value="instagram">Instagram</option>
+                                        </select><br><br>
+                                        <label for="pseudonyme">Votre pseudonyme sur ce résaux</label>
+                                        <input type="text" name="pseudonyme" id="pseudonyme" placeholder="utyr3456" /><h3>(Attention n'oulibliez pas le # pour discord et pas de compte priver pour instagram et twitter)</h3><br><br>
+                                        <label for="email">Votre email</label>
+                                        <input type="email" name="email" id="email" placeholder="votre.email@email.com"><br><br>
+                                        <label for="description_commandes">Descriptions de la commande</label><br><br>
+                                        <textarea name="description_commandes" id="description_commandes" ></textarea>
+                                </fieldset>  
+                            </p>
+                    </form> 
+                </div>
+            </article>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+body
+{
+	background-color: #ebf2fc;
+}
+
+#bloc_header
+{
+	border: 2px solid #4285f4;
+	background-color: #4285f4;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.accueilhaut
+{
+	border: 2px solid #ebf2fc;
+	padding: 0.2em;
+}
+
+
+.commandeshaut
+{
+	border: 2px solid #ebf2fc;
+	padding: 0.2em;
+}
+
+.aproposhaut
+{
+	border: 2px solid #ebf2fc;
+	padding: 0.2em;
+}
+
+a
+{
+	color: #ebf2fc;
+	text-decoration: none;
+}
+
+.blancsite
+{
+	color: #ebf2fc;
+}
+.bleusite
+{
+	color: #4285f4;
+}
+
+#bloc_section2
+{
+	border: 2px solid #4285f4;
+	height: 30em;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4285f4;
+}
+
+#lesitedelaudio
+{
+	text-align: center;
+	margin-top: 125px;
+}
+
+/*Bloc commander première page */
+
+#bloccommanderhaut
+{
+	border: 2px solid #ebf2fc;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#bloccommanderhauttext
+{
+	text-align: center;
+	margin-top: 125px;
+	font-size: 1.5em;
+}
+
+h1, h2
+{
+	font-size: 1.8em;
+	color: #ebf2fc;
+}
+
+#motshop
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+#barrepoint1
+{
+	border-bottom: 2px dotted #4285f4;
+	width: 8.2em;
+	margin-left: 0.3em;
+	padding-left: 1.8em;
+	color: #4285f4;
+}
+
